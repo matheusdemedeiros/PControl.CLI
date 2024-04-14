@@ -1,0 +1,200 @@
+{
+    "workspaceFolder": "C:\\DEV\\python",
+    "projectsFolder": "C:\\DEV\\python\\repo\\nddPrintControl\\agent-portal\\projects",
+    "repository" : "https://tfs.ndd.tech/NDD-PrintCollection/Orbix/_git/nddPrintControl",
+    "services": [
+        {
+            "name": "core",
+            "path": "core",
+            "loadCommand": "ndk load ndk-platform",
+            "childApis": [
+                {
+                    "name": "control-core-api",
+                    "fullPath": "\\core\\server\\nddPrintControl.Core.Web.Api",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                },
+                {
+                    "name": "control-core-integration-api",
+                    "fullPath": "\\core\\server\\nddPrintControl.Core.Web.Integration.API",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                }
+            ],
+            "childClients": [
+                {
+                    "name": "control-core-client",
+                    "fullPath": "\\core\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build core",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "agent-config",
+            "path": "agent-config",
+            "loadCommand": "ndk load agent-config",
+            "childApis": [
+                {
+                    "name": "agent-config-api",
+                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Web.Api",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                },
+                {
+                    "name": "agent-config-web-data-collector-api",
+                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Web.DataCollector.Api",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                },
+                {
+                    "name": "agent-config-processor",
+                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Service.Processor",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                }
+            ],
+            "childClients": [
+                {
+                    "name": "agent-config-client",
+                    "fullPath": "\\agent-config\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build agent-config",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "gateway",
+            "path": "gateway",
+            "loadCommand": "",
+            "childApis": [
+                {
+                    "name": "gateway-api",
+                    "fullPath": "\\gateway\\server\\NDK.Gateway",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                }
+            ],
+            "childClients": []
+        },
+        {
+            "name": "global-styles",
+            "path": "global-styles",
+            "loadCommand": "",
+            "childApis": [],
+            "childClients": [
+                {
+                    "name": "global-styles-client",
+                    "fullPath": "\\global-styles\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build global-styles",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "layout",
+            "path": "layout",
+            "loadCommand": "",
+            "childApis": [],
+            "childClients": [
+                {
+                    "name": "layout-client",
+                    "fullPath": "\\layout\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build layout",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "ndk-policies-home-page",
+            "path": "ndk-policies-home-page",
+            "loadCommand": "ndk load ndk-policies-home-page",
+            "childApis": [],
+            "childClients": [
+                {
+                    "name": "ndk-policies-home-page-client",
+                    "fullPath": "\\ndk-policies-home-page\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build ndk-policies-home-page --featureMode=orbix",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "platform-browser",
+            "path": "platform-browser",
+            "loadCommand": "",
+            "childApis": [],
+            "childClients": [
+                {
+                    "name": "platform-browser-client",
+                    "fullPath": "\\platform-browser\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build platform-browser",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        },
+        {
+            "name": "print-portal",
+            "path": "print-portal",
+            "loadCommand": "ndk load print-portal",
+            "childApis": [
+                {
+                    "name": "print-portal-api",
+                    "fullPath": "\\print-portal\\server\\nddPrint.Server.UI.Web.Billing.Portal.Api",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                },
+                {
+                    "name": "print-portal-web-data-collector-api",
+                    "fullPath": "\\print-portal\\server\\nddPrint.Server.Proxy.Web.DataCollector.Api",
+                    "restoreCommand": "dotnet restore",
+                    "buildCommand": "dotnet build",
+                    "runCommand": "dotnet run"
+                }
+            ],
+            "childClients": [
+                {
+                    "name": "print-portal-client",
+                    "fullPath": "\\print-portal\\client",
+                    "installCommand": "npm install",
+                    "buildCommand": "npm run build",
+                    "ndkBuildCommand": "ndk build print-portal",
+                    "startCommand": "npm run start",
+                    "removeDistCommand": "rm -force dist",
+                    "removeNodeModulesCommand": "rm -force dist"
+                }
+            ]
+        }
+    ]
+}

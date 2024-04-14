@@ -4,5 +4,5 @@ namespace PControl.CLI.Console.Command;
 
 public interface ICLICommand
 {
-  Task<Result> ExecuteAsync();
+  Task<Result<string>> ExecuteAsync();
 }

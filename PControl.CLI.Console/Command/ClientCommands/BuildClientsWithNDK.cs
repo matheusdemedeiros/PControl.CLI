@@ -9,7 +9,7 @@ namespace PControl.CLI.Console.Command.ClientComands;
 )]
 public class BuildClientsWithNDK : ICLICommand
 {
-    public Task<Result> ExecuteAsync()
+    public Task<Result<string>> ExecuteAsync()
     {
         throw new NotImplementedException();
     }

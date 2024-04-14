@@ -4,7 +4,7 @@ namespace PControl.CLI.Console.UI;
 
 public static class ConsoleUI
 {
-  public static void ShowResult(Result result)
+  public static void ShowResult(Result<string> result)
   {
     try
     {
@@ -24,17 +24,22 @@ public static class ConsoleUI
 
   }
 
-  private static void ShowSuccess(Result result)
+  private static void ShowSuccess(Result<string> result)
   {
-    var success = result.Successes.First();
     System.Console.ForegroundColor = ConsoleColor.Green;
-    System.Console.WriteLine(success);
+
+    if (result.Successes.Any())
+    {
+      result.Successes.ForEach(succes => System.Console.WriteLine($"Sucesso: {succes.Message}"));
+    }
   }
 
-  private static void ShowFail(Result result)
+  private static void ShowFail(Result<string> result)
   {
     System.Console.ForegroundColor = ConsoleColor.Red;
-    var error = result.Errors.First();
-    System.Console.WriteLine($"Erro: {error.Message}");
+    if (result.Errors.Any())
+    {
+      result.Errors.ForEach(error => System.Console.WriteLine($"Erro: {error.Message}"));
+    }
   }
 }

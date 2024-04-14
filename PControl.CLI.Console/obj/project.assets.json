@@ -92,6 +92,20 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "PControl.CLI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PControl.CLI.Domain": "1.0.0",
+          "PControl.CLI.Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PControl.CLI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PControl.CLI.Application.dll": {}
+        }
+      },
       "PControl.CLI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -321,6 +335,11 @@
         "version.txt"
       ]
     },
+    "PControl.CLI.Application/1.0.0": {
+      "type": "project",
+      "path": "../PControl.CLI.Application/PControl.CLI.Application.csproj",
+      "msbuildProject": "../PControl.CLI.Application/PControl.CLI.Application.csproj"
+    },
     "PControl.CLI.Domain/1.0.0": {
       "type": "project",
       "path": "../PControl.CLI.Domain/PControl.CLI.Domain.csproj",
@@ -335,6 +354,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
+      "PControl.CLI.Application >= 1.0.0",
       "PControl.CLI.Domain >= 1.0.0",
       "PControl.CLI.Infra >= 1.0.0"
     ]
@@ -366,6 +386,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\PControl.CLI.Application.csproj": {
+              "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\PControl.CLI.Application.csproj"
+            },
             "C:\\DEV\\PControl.CLI\\PControl.CLI.Domain\\PControl.CLI.Domain.csproj": {
               "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Domain\\PControl.CLI.Domain.csproj"
             },

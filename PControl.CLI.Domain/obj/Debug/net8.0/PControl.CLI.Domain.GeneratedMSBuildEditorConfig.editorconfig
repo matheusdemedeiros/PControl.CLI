@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PControl.CLI.Domain
-build_property.ProjectDir = c:\DEV\PControl.CLI\PControl.CLI.Domain\
+build_property.ProjectDir = C:\DEV\PControl.CLI\PControl.CLI.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

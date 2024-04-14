@@ -1,6 +1,12 @@
 ﻿using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
+using PControl.CLI.Application;
 using PControl.CLI.Console.Attributes;
 using PControl.CLI.Console.Command.ClientComands;
+using PControl.CLI.Console.Command.RepositoryCommands;
+using PControl.CLI.Console.Command.ServiceCommands;
+using PControl.CLI.Console.DI;
+using PControl.CLI.Infra;
 
 namespace PControl.CLI.Console.Command;
 
@@ -16,18 +22,28 @@ public static class CLICommandFactory
     }
 
     var inputCommand = args[0].ToLower();
+    var pControlConfig = DependencyInjection.ServiceProvider.GetRequiredService<AppConfig>();
 
-    switch(inputCommand){
-      case "remove:dist": 
+    switch (inputCommand)
+    {
+      case "remove:dist":
         return new RemoveDist();
-      case "remove:nmodules": 
+      case "remove:nmodules":
         return new RemoveNModules();
-      case "build:ndk": 
+      case "build:ndk":
         return new BuildClientsWithNDK();
-      case "install:native": 
+      case "install:native":
         return new InstallClientsWithNative();
-      case "install:ndk": 
+      case "install:ndk":
         return new InstallClientsWithNDK();
+      case "clone:main":
+        var terminalService = new TerminalService();
+        var gitService = new GitService(pControlConfig.Config, terminalService);
+        return new PrintControlCloneCommand(gitService);
+      case "remove:main":
+        return new RemovePrintControlRepoCommand(new FolderService(), pControlConfig.Config);
+      case "services:load":
+        return new LoadAllServicesCommand(new TerminalService(), pControlConfig.Config);
       default:
         return null;
     }

@@ -9,12 +9,12 @@ namespace PControl.CLI.Console.Command.ClientComands;
 )]
 public class RemoveDist : ICLICommand
 {
-  public Task<Result> ExecuteAsync()
+  public Task<Result<string>> ExecuteAsync()
   {
     return RemoveDistFolderFromAllClientsAsync();
   }
 
-  private async Task<Result> RemoveDistFolderFromAllClientsAsync(){
+  private async Task<Result<string>> RemoveDistFolderFromAllClientsAsync(){
     return Result.Ok().WithSuccess("sucesso!");
   }
 

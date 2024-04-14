@@ -1,4 +1,5 @@
 ﻿using FluentResults;
+using PControl.CLI.Application;
 using PControl.CLI.Console.Attributes;
 
 namespace PControl.CLI.Console.Command.RepositoryCommands;
@@ -9,8 +10,15 @@ namespace PControl.CLI.Console.Command.RepositoryCommands;
 )]
 public class PrintControlCloneCommand : ICLICommand
 {
-    public Task<Result> ExecuteAsync()
-    {
-        throw new NotImplementedException();
-    }
+  private GitService gitService;
+
+  public PrintControlCloneCommand(GitService gitService)
+  {
+    this.gitService = gitService;
+  }
+
+  public Task<Result<string>> ExecuteAsync()
+  {
+    return gitService.ClonePrintControlRepo();
+  }
 }

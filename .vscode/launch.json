@@ -10,7 +10,7 @@
       "request": "launch",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/PControl.CLI.Console/bin/Debug/net8.0/PControl.CLI.Console.dll",
-      "args": ["remove:dist"],
+      "args": ["services:load"],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,
       "console": "internalConsole"

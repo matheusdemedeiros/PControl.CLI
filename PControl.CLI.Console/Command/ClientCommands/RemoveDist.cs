@@ -1,5 +1,7 @@
 ﻿using FluentResults;
+using PControl.CLI.Application;
 using PControl.CLI.Console.Attributes;
+using PControl.CLI.Domain;
 
 namespace PControl.CLI.Console.Command.ClientComands;
 
@@ -9,13 +11,37 @@ namespace PControl.CLI.Console.Command.ClientComands;
 )]
 public class RemoveDist : ICLICommand
 {
-  public Task<Result<string>> ExecuteAsync()
+  private FolderService folderService;
+  private PrintControlConfig config;
+
+    public RemoveDist(FolderService folderService, PrintControlConfig config)
+    {
+        this.folderService = folderService;
+        this.config = config;
+    }
+
+    public async Task<Result<string>> ExecuteAsync()
   {
-    return RemoveDistFolderFromAllClientsAsync();
-  }
+    var basePath = config.ProjectsFolder;
+    var folderToDelete = "dist";
+    var tasks = new List<Task>();
 
-  private async Task<Result<string>> RemoveDistFolderFromAllClientsAsync(){
-    return Result.Ok().WithSuccess("sucesso!");
-  }
+    foreach (var service in config.Services)
+    {
+      var clientsFromService = service.ChildClients;
+      foreach (var client in clientsFromService)
+      {
+        var pathToDelete = Path.Join(basePath, service.Path, client.FullPath, folderToDelete);
+        if (!Directory.Exists(pathToDelete))
+        {
+          break;
+        }
+        tasks.Add(folderService.DeleteFolder(service.Path, pathToDelete));
+      }
+    }
 
+    await Task.WhenAll(tasks);
+
+    return Result.Ok("Todas as pastas node_modules foram apagadas com sucesso!");
+  }
 }

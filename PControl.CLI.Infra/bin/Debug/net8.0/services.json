@@ -1,6 +1,6 @@
 {
     "workspaceFolder": "C:\\DEV\\python",
-    "projectsFolder": "C:\\DEV\\python\\repo\\nddPrintControl\\agent-portal\\projects",
+    "projectsFolder": "C:\\DEV\\python\\nddPrintControl\\agent-portal\\projects",
     "repository" : "https://tfs.ndd.tech/NDD-PrintCollection/Orbix/_git/nddPrintControl",
     "services": [
         {
@@ -10,14 +10,14 @@
             "childApis": [
                 {
                     "name": "control-core-api",
-                    "fullPath": "\\core\\server\\nddPrintControl.Core.Web.Api",
+                    "fullPath": "\\server\\nddPrintControl.Core.Web.Api",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
                 },
                 {
                     "name": "control-core-integration-api",
-                    "fullPath": "\\core\\server\\nddPrintControl.Core.Web.Integration.API",
+                    "fullPath": "\\server\\nddPrintControl.Core.Web.Integration.API",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
@@ -26,7 +26,7 @@
             "childClients": [
                 {
                     "name": "control-core-client",
-                    "fullPath": "\\core\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build core",
@@ -43,21 +43,21 @@
             "childApis": [
                 {
                     "name": "agent-config-api",
-                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Web.Api",
+                    "fullPath": "\\server\\nddSmart.AgentConfigModule.Web.Api",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
                 },
                 {
                     "name": "agent-config-web-data-collector-api",
-                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Web.DataCollector.Api",
+                    "fullPath": "\\server\\nddSmart.AgentConfigModule.Web.DataCollector.Api",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
                 },
                 {
                     "name": "agent-config-processor",
-                    "fullPath": "\\agent-config\\server\\nddSmart.AgentConfigModule.Service.Processor",
+                    "fullPath": "\\server\\nddSmart.AgentConfigModule.Service.Processor",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
@@ -66,7 +66,7 @@
             "childClients": [
                 {
                     "name": "agent-config-client",
-                    "fullPath": "\\agent-config\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build agent-config",
@@ -83,7 +83,7 @@
             "childApis": [
                 {
                     "name": "gateway-api",
-                    "fullPath": "\\gateway\\server\\NDK.Gateway",
+                    "fullPath": "\\server\\NDK.Gateway",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
@@ -99,7 +99,7 @@
             "childClients": [
                 {
                     "name": "global-styles-client",
-                    "fullPath": "\\global-styles\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build global-styles",
@@ -117,7 +117,7 @@
             "childClients": [
                 {
                     "name": "layout-client",
-                    "fullPath": "\\layout\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build layout",
@@ -135,7 +135,7 @@
             "childClients": [
                 {
                     "name": "ndk-policies-home-page-client",
-                    "fullPath": "\\ndk-policies-home-page\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build ndk-policies-home-page --featureMode=orbix",
@@ -153,7 +153,7 @@
             "childClients": [
                 {
                     "name": "platform-browser-client",
-                    "fullPath": "\\platform-browser\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build platform-browser",
@@ -170,14 +170,14 @@
             "childApis": [
                 {
                     "name": "print-portal-api",
-                    "fullPath": "\\print-portal\\server\\nddPrint.Server.UI.Web.Billing.Portal.Api",
+                    "fullPath": "\\nddPrint.Server.UI.Web.Billing.Portal.Api",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
                 },
                 {
                     "name": "print-portal-web-data-collector-api",
-                    "fullPath": "\\print-portal\\server\\nddPrint.Server.Proxy.Web.DataCollector.Api",
+                    "fullPath": "\\nddPrint.Server.Proxy.Web.DataCollector.Api",
                     "restoreCommand": "dotnet restore",
                     "buildCommand": "dotnet build",
                     "runCommand": "dotnet run"
@@ -186,7 +186,7 @@
             "childClients": [
                 {
                     "name": "print-portal-client",
-                    "fullPath": "\\print-portal\\client",
+                    "fullPath": "\\client",
                     "installCommand": "npm install",
                     "buildCommand": "npm run build",
                     "ndkBuildCommand": "ndk build print-portal",

@@ -27,9 +27,9 @@ public static class CLICommandFactory
     switch (inputCommand)
     {
       case "remove:dist":
-        return new RemoveDist();
+        return new RemoveDist(new FolderService(), pControlConfig.Config);
       case "remove:nmodules":
-        return new RemoveNModules();
+        return new RemoveNModules(new FolderService(), pControlConfig.Config);
       case "build:ndk":
         return new BuildClientsWithNDK();
       case "install:native":

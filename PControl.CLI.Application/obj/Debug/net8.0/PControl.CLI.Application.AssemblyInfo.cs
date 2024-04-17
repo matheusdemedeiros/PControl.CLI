@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PControl.CLI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13ee1e98bd037247b429dc689080bc2cc9225574")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57bb0bf29fdd39a4e1d380c1b56602915e8c676a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PControl.CLI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PControl.CLI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

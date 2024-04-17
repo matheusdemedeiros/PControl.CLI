@@ -10,3 +10,4 @@ C:\DEV\PControl.CLI\PControl.CLI.Domain\obj\Debug\net8.0\PControl.CLI.Domain.dll
 C:\DEV\PControl.CLI\PControl.CLI.Domain\obj\Debug\net8.0\refint\PControl.CLI.Domain.dll
 C:\DEV\PControl.CLI\PControl.CLI.Domain\obj\Debug\net8.0\PControl.CLI.Domain.pdb
 C:\DEV\PControl.CLI\PControl.CLI.Domain\obj\Debug\net8.0\ref\PControl.CLI.Domain.dll
+C:\DEV\PControl.CLI\PControl.CLI.Domain\obj\Debug\net8.0\PControl.CLI.Domain.sourcelink.json

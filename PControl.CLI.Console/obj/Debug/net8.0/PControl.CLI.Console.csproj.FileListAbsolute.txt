@@ -26,3 +26,4 @@ C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\refint\PControl.CLI.Co
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.pdb
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.genruntimeconfig.cache
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\ref\PControl.CLI.Console.dll
+C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.sourcelink.json

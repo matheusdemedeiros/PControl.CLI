@@ -9,9 +9,9 @@ C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.Gener
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.AssemblyInfoInputs.cache
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.AssemblyInfo.cs
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.csproj.CoreCompileInputs.cache
+C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.sourcelink.json
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.F5804C80.Up2Date
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.dll
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\refint\PControl.CLI.Infra.dll
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.pdb
 C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\ref\PControl.CLI.Infra.dll
-C:\DEV\PControl.CLI\PControl.CLI.Infra\obj\Debug\net8.0\PControl.CLI.Infra.sourcelink.json

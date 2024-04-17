@@ -5,11 +5,11 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PControl.CLI.Console", "PControl.CLI.Console\PControl.CLI.Console.csproj", "{0F8DDCEF-187F-4955-AE49-0AA95075E5A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PControl.CLI.Domain", "PControl.CLI.Domain\PControl.CLI.Domain.csproj", "{300E6032-03D8-4C18-A928-77FCC952B646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PControl.CLI.Domain", "PControl.CLI.Domain\PControl.CLI.Domain.csproj", "{300E6032-03D8-4C18-A928-77FCC952B646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PControl.CLI.Infra", "PControl.CLI.Infra\PControl.CLI.Infra.csproj", "{A681700C-D818-43F7-8427-068149BEC6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PControl.CLI.Infra", "PControl.CLI.Infra\PControl.CLI.Infra.csproj", "{A681700C-D818-43F7-8427-068149BEC6D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PControl.CLI.Application", "PControl.CLI.Application\PControl.CLI.Application.csproj", "{DDEF9EA1-00E7-41E2-885D-F21A6D46BEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PControl.CLI.Application", "PControl.CLI.Application\PControl.CLI.Application.csproj", "{DDEF9EA1-00E7-41E2-885D-F21A6D46BEBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

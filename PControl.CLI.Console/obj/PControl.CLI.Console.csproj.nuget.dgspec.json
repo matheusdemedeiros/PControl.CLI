@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\PControl.CLI.Application.csproj",
         "projectName": "PControl.CLI.Application",
         "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\PControl.CLI.Application.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\matheus.medeiros\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -77,11 +77,11 @@
         "projectUniqueName": "C:\\DEV\\PControl.CLI\\PControl.CLI.Console\\PControl.CLI.Console.csproj",
         "projectName": "PControl.CLI.Console",
         "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Console\\PControl.CLI.Console.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\matheus.medeiros\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -153,11 +153,11 @@
         "projectUniqueName": "C:\\DEV\\PControl.CLI\\PControl.CLI.Domain\\PControl.CLI.Domain.csproj",
         "projectName": "PControl.CLI.Domain",
         "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Domain\\PControl.CLI.Domain.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\matheus.medeiros\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -219,11 +219,11 @@
         "projectUniqueName": "C:\\DEV\\PControl.CLI\\PControl.CLI.Infra\\PControl.CLI.Infra.csproj",
         "projectName": "PControl.CLI.Infra",
         "projectPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Infra\\PControl.CLI.Infra.csproj",
-        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\matheus.medeiros\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -279,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

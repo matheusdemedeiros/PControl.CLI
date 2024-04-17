@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    ".NET Core Launch (console)": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "commandLineArgs": "remove:nmodules"
+    }
+  }
+}

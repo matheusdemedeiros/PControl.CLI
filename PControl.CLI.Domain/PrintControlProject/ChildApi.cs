@@ -1,5 +1,6 @@
 ﻿namespace PControl.CLI.Domain;
 
+[Serializable]
 public class ChildApi
 {
   public string Name { get; set; }

@@ -20,10 +20,10 @@ C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.G
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.AssemblyInfoInputs.cache
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.AssemblyInfo.cs
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.csproj.CoreCompileInputs.cache
+C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.sourcelink.json
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.0D5FE40A.Up2Date
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.dll
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\refint\PControl.CLI.Console.dll
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.pdb
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.genruntimeconfig.cache
 C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\ref\PControl.CLI.Console.dll
-C:\DEV\PControl.CLI\PControl.CLI.Console\obj\Debug\net8.0\PControl.CLI.Console.sourcelink.json

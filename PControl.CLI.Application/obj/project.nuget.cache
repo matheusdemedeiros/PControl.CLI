@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1Z9bamNoX7/hL6OzHoHmON4w5rMA/MjRAFAkh5xt8hL3uTxW5dfLfb735eRZXGUlXxAOxzahBSC08I924w38ww==",
+  "dgSpecHash": "I0DzTx27QztpOzKnkT4zV7bL3Uy7Nb46WFGBfCYNAk5lvs++uu1TwCch5ky4Ok03FD5xBe07vYQF/gwPIfTleg==",
   "success": true,
   "projectFilePath": "C:\\DEV\\PControl.CLI\\PControl.CLI.Application\\PControl.CLI.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Matheus\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
-    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
-    "C:\\Users\\Matheus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Matheus\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\matheus.medeiros\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\matheus.medeiros\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.medeiros\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\matheus.medeiros\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

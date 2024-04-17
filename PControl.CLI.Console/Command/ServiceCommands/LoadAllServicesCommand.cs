@@ -34,7 +34,7 @@ namespace PControl.CLI.Console.Command.ServiceCommands
                 {
                     var loadCommand = service.LoadCommand;
 
-                    terminalService.ExecuteCommand("dir", config.ProjectsFolder);
+                    terminalService.ExecuteCommand(service.LoadCommand, config.ProjectsFolder);
                 }
 
                 return Result.Ok($"Comando executado com sucesso.");

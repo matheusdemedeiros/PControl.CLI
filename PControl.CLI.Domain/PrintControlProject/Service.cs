@@ -1,5 +1,6 @@
 ﻿namespace PControl.CLI.Domain;
 
+[Serializable]
 public class Service
 {
   public string Name { get; set; }
